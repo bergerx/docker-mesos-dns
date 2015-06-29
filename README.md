@@ -32,7 +32,5 @@ Every mesos config variable has a corresponding environment variable, prepended 
 * `masters` config key will be given as `MESOS_DNS_MASTERS` and should be given as a comma seperated list,
 * `ttl` config key will be given as `MESOS_DNS_TTL`
 
-## Fork:
-
 ## Docs:
 [mesos-dns](http://mesosphere.github.io/mesos-dns/docs/naming.html)
