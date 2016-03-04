@@ -48,14 +48,13 @@ function add_all {
   add masters        list
   add refreshSeconds int
   add ttl            int
-  add timeout        int
   add domain         str
   add port           int
   add resolvers      list
-  add dsnon          bool
+  add timeout        int
   add httpon         bool
+  add dsnon          bool
   add httpport       int
-  add recurseon      bool
   add externalon     bool
   add listener       str
   add SOAMname       str
@@ -64,6 +63,8 @@ function add_all {
   add SOARetry       int
   add SOAExpire      int
   add SOAMinttl      int
+  add IPSources      list
+  add recurseon      bool
   add enforceRFC952  bool
 }
 echo "{"
